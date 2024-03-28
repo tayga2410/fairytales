@@ -83,10 +83,27 @@
   overflow-y: auto;
   max-width: 1200px;
   max-height: 800px;
+  position: relative;
 }
 
 .tales__popup-text {
   margin-bottom: 10px;
+}
+
+.tales__close-button {
+  position: fixed;
+  top: 259px;
+  right: 40px;
+  z-index: 9999; 
+  cursor: pointer;
+  font-size: 35px;
+  background: none;
+  border: none;
+  color: #05cdca;
+}
+
+.tales__close-button:hover {
+  color: #ff0000; /* Цвет при наведении */
 }
 
 
@@ -103,6 +120,21 @@
 
   .tales__title {
     font-size: 35px;
+  }
+
+  .tales__popup-content {
+    padding: 25px 20px;
+  }
+
+  .tales__description {
+    font-size: 15px;
+    padding: 50px 20px;
+  }
+
+  .tales__close-button {
+    top: 111px;
+    right: 5px;
+    font-size: 25px;
   }
   
 }
@@ -132,5 +164,20 @@
 
   .tales__title {
     font-size: 16px;
+  }
+
+  .tales__popup-content {
+    padding: 10px 10px;
+  }
+
+  .tales__description {
+    font-size: 12px;
+    padding: 50px 10px;
+  }
+
+  .tales__close-button {
+    font-size: 20px;
+    top: 20px;
+    right: 20px;
   }
 }

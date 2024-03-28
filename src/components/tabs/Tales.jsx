@@ -17,8 +17,11 @@ export default function Tabs() {
     setPopupState({ ...popupState, [cardId]: true });
   };
 
-  const closePopup = (cardId) => {
-    setPopupState({ ...popupState, [cardId]: false });
+  const closePopup = (popupId) => {
+    setPopupState((prevState) => ({
+      ...prevState,
+      [popupId]: false,
+    }));
   };
 
   const handlePopupClick = (e, cardId) => {
@@ -59,6 +62,7 @@ export default function Tabs() {
                     className="tales__popup-content"
                     onClick={(e) => e.stopPropagation()}
                   >
+                     <button className="tales__close-button" onClick={() => closePopup("card1")}>✖️</button>
                     <p className="tales__description">
                       Давным-давно в волшебном лесу, где деревья шептали песни,
                       а горы возвышались, как спящие великаны, жили-были Лесные
@@ -112,6 +116,7 @@ export default function Tabs() {
                     className="tales__popup-content"
                     onClick={(e) => e.stopPropagation()}
                   >
+                    <button className="tales__close-button" onClick={() => closePopup("card2")}>✖️</button>
                     <p className="tales__description">
                       <b>Эта сказка передавалась поколениями в семье
                       Курбановых. Моя прабабушка Гандап Курбанова привезла ее в
@@ -418,6 +423,7 @@ export default function Tabs() {
                   className="tales__popup-content"
                   onClick={(e) => e.stopPropagation()}
                 >
+                  <button className="tales__close-button" onClick={() => closePopup("card3")}>✖️</button>
                   <p className="tales__description">
                   В одном из тех уединенных сел, что скрыты у подножия мрачных гор на самой окраине земель, обитали две души: почти ослепший старик и его внучка. Старца звали Сексенбай, а малышку – Ажар. Это маленькое создание обладала таким бурным потоком энергии, что, казалось, могла осветить электричеством весь аул на долгие годы вперед. Зеленый отблеск в её глазах, и кудрявые волосы, игриво падающие на лоб, позволяли ей проказничать без последствий. Впрочем, всем своим сердцем она была привязана к деду и слушала его запреты, как бы тяжело ей это ни давалось.
 Сексенбай, десницей века своего, несмотря на 83 года от роду, не признавал трости и нес свою статную фигуру с несгибаемой гордостью. Пусть трость и всегда стояла у камина. Его седые волосы и борода, подчеркиваемые величественным носом с горбинкой, придавали ему облик мужчины, чья душа и сердце не чувствуют тяжести лет, обретая в заботе о слабом поле источник вечной молодости и силы.
