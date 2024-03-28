@@ -150,6 +150,7 @@
   .tales__container {
     padding: 0 10px;
     gap: 10px;
+    justify-content: center;
   }
 
   .tales__controls {
@@ -184,7 +185,7 @@
 
   .tales__close-button {
     font-size: 20px;
-    top: 20px;
+    top: 27px;
     right: 20px;
   }
 }
