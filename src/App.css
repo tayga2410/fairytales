@@ -1,0 +1,47 @@
+#root {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+
+  white-space: nowrap;
+
+  border: 0;
+
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+}
+
+.container {
+  padding: 0 100px;
+
+  @media screen and (max-width: 1439px) {
+    padding: 0 50px;
+  }
+
+  @media screen and (max-width: 767px) {
+    padding: 0 15px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}

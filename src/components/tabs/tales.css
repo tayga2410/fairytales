@@ -1,0 +1,136 @@
+.tales {
+  padding: 50px 0;
+  background: linear-gradient(to bottom, #50c878, rgb(150 201 220));
+  color: white;
+}
+
+.tales__controls {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 30px;
+}
+
+.tales__button {
+  font-size: 34px;
+  background-color: transparent;
+  border-radius: 32px;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid white;
+}
+
+.tales__button:hover,
+.tales__button:focus {
+  background-color: rgb(53 132 246 / 88%);
+}
+
+.tales__button:active {
+  background-color: #8e9be9;
+}
+
+.tales__container {
+  padding: 0 50px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.tales__card {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  flex-direction: column;
+}
+
+.tales__title {
+  display: flex;
+  font-size: 44px;
+  margin: 0 0 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.tales__description {
+  font-size: 24px;
+}
+
+.tales__image {
+  flex-shrink: 0;
+  max-height: 500px;
+  max-width: 433px;
+}
+
+.tales__popup-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.tales__popup-content {
+  background: linear-gradient(to bottom, #50c878, rgb(150 201 220));
+  padding: 50px 100px;
+  border-radius: 8px;
+  overflow-y: auto;
+  max-width: 1200px;
+  max-height: 800px;
+}
+
+.tales__popup-text {
+  margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 1439px) {
+  .tales__container {
+    padding: 0 20px;
+    gap: 15px;
+  }
+  
+  .tales__image {
+    max-height: 350px;
+    max-width: 355px;
+  }
+
+  .tales__title {
+    font-size: 35px;
+  }
+  
+}
+
+@media screen and (max-width: 767px) {
+  .tales__container {
+    padding: 0 10px;
+    gap: 10px;
+  }
+
+  .tales__controls {
+    gap: 10px;
+    margin: 0 0 12px;
+  }
+
+  .tales__button {
+    font-size: 14px;
+    border-radius: 16px;
+    padding: 5px 10px;
+  }
+
+  
+  .tales__image {
+    max-height: 200px;
+    max-width: 145px;
+  }
+
+  .tales__title {
+    font-size: 16px;
+  }
+}

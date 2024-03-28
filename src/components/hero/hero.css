@@ -1,0 +1,28 @@
+.hero {
+    color: white;
+    max-height: 848px;
+}
+
+.hero__image {
+    width: 100%;
+    height: 848px;
+}
+
+@media screen and (max-width: 1439px) {
+    .hero {
+        max-height: 500px;
+    }
+    .hero__image {
+        height: 500px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .hero {
+        max-height: 350px;
+    }
+    .hero__image {
+        height: 350px;
+    }
+}
