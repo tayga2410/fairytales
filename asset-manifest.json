@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fairytales/static/css/main.609a9d03.css",
-    "main.js": "/fairytales/static/js/main.d0fa5e1e.js",
+    "main.css": "/fairytales/static/css/main.0acb552c.css",
+    "main.js": "/fairytales/static/js/main.250ccc9e.js",
     "static/js/453.f0d60f21.chunk.js": "/fairytales/static/js/453.f0d60f21.chunk.js",
     "static/media/hero.png": "/fairytales/static/media/hero.19a4af06c9174fdc4871.png",
     "static/media/tales-2.jpg": "/fairytales/static/media/tales-2.0fd9786e6f8e141b8a33.jpg",
@@ -11,12 +11,12 @@
     "static/media/linkedin.svg": "/fairytales/static/media/linkedin.4897553376b3040252b1bdd6e2d9f156.svg",
     "static/media/github.svg": "/fairytales/static/media/github.67f6bead7cf36d900fc0cc6b6feaa7f0.svg",
     "index.html": "/fairytales/index.html",
-    "main.609a9d03.css.map": "/fairytales/static/css/main.609a9d03.css.map",
-    "main.d0fa5e1e.js.map": "/fairytales/static/js/main.d0fa5e1e.js.map",
+    "main.0acb552c.css.map": "/fairytales/static/css/main.0acb552c.css.map",
+    "main.250ccc9e.js.map": "/fairytales/static/js/main.250ccc9e.js.map",
     "453.f0d60f21.chunk.js.map": "/fairytales/static/js/453.f0d60f21.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.609a9d03.css",
-    "static/js/main.d0fa5e1e.js"
+    "static/css/main.0acb552c.css",
+    "static/js/main.250ccc9e.js"
   ]
 }
