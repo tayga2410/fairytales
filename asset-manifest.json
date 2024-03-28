@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fairytales/static/css/main.c54579ae.css",
+    "main.css": "/fairytales/static/css/main.64e03652.css",
     "main.js": "/fairytales/static/js/main.250ccc9e.js",
     "static/js/453.f0d60f21.chunk.js": "/fairytales/static/js/453.f0d60f21.chunk.js",
     "static/media/hero.png": "/fairytales/static/media/hero.19a4af06c9174fdc4871.png",
@@ -11,12 +11,12 @@
     "static/media/linkedin.svg": "/fairytales/static/media/linkedin.4897553376b3040252b1bdd6e2d9f156.svg",
     "static/media/github.svg": "/fairytales/static/media/github.67f6bead7cf36d900fc0cc6b6feaa7f0.svg",
     "index.html": "/fairytales/index.html",
-    "main.c54579ae.css.map": "/fairytales/static/css/main.c54579ae.css.map",
+    "main.64e03652.css.map": "/fairytales/static/css/main.64e03652.css.map",
     "main.250ccc9e.js.map": "/fairytales/static/js/main.250ccc9e.js.map",
     "453.f0d60f21.chunk.js.map": "/fairytales/static/js/453.f0d60f21.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c54579ae.css",
+    "static/css/main.64e03652.css",
     "static/js/main.250ccc9e.js"
   ]
 }
