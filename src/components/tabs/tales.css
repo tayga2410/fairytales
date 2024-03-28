@@ -106,6 +106,13 @@
   color: #ff0000; /* Цвет при наведении */
 }
 
+@media screen and (min-width: 1441px) {
+  .tales__close-button {
+    right: 280px;
+    top: 259px;
+  }
+}
+
 
 @media screen and (max-width: 1439px) {
   .tales__container {
