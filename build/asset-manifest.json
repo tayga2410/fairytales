@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.609a9d03.css",
+    "main.js": "/static/js/main.dbabb104.js",
+    "static/js/453.f0d60f21.chunk.js": "/static/js/453.f0d60f21.chunk.js",
+    "static/media/hero.png": "/static/media/hero.19a4af06c9174fdc4871.png",
+    "static/media/tales-2.jpg": "/static/media/tales-2.0fd9786e6f8e141b8a33.jpg",
+    "static/media/tales-1.jpg": "/static/media/tales-1.bb9d1ee5f5e967109ac0.jpg",
+    "static/media/about.png": "/static/media/about.5c068f00ee84d19e56ca.png",
+    "static/media/tales-3.jpg": "/static/media/tales-3.e691693089843554c33c.jpg",
+    "static/media/linkedin.svg": "/static/media/linkedin.4897553376b3040252b1bdd6e2d9f156.svg",
+    "static/media/github.svg": "/static/media/github.67f6bead7cf36d900fc0cc6b6feaa7f0.svg",
+    "index.html": "/index.html",
+    "main.609a9d03.css.map": "/static/css/main.609a9d03.css.map",
+    "main.dbabb104.js.map": "/static/js/main.dbabb104.js.map",
+    "453.f0d60f21.chunk.js.map": "/static/js/453.f0d60f21.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.609a9d03.css",
+    "static/js/main.dbabb104.js"
+  ]
+}
